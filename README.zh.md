@@ -138,7 +138,7 @@ public class MainActivity extends ReactActivity {
 
 #import <React/RCTBundleURLProvider.h>
 #import <React/RCTRootView.h>
-#import "RNSplashScreen.h"  // 添加这一句
+#import "SplashScreen.h"  // 添加这一句
 
 @implementation AppDelegate
 
@@ -146,7 +146,7 @@ public class MainActivity extends ReactActivity {
 {
     // ...other code
 
-    [RNSplashScreen show];  // 添加这一句，这一句一定要在最后
+    [SplashScreen show];  // 添加这一句，这一句一定要在最后
     return YES;
 }
 
